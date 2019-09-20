@@ -25,25 +25,50 @@ namespace MyMap
             SetupSegment();
             DummyPins();
             SetupMap();
-
-
-            // testing
-            Task.Run(async () => {
-                Geolocator = CrossGeolocator.Current;
-                Geolocator.DesiredAccuracy = 100;
-                Geolocator.PositionChanged += (_sender, _event) =>
-                {
-                    Console.WriteLine($"Position Status: {_event.Position.Timestamp}");
-                    Console.WriteLine($"Position Latitude: {_event.Position.Latitude}");
-                    Console.WriteLine($"Position Longitude: {_event.Position.Longitude}");
-
-                    var currentLocation = new Position(_event.Position.Latitude, _event.Position.Longitude);
-                    map.MoveToRegion(MapSpan.FromCenterAndRadius(currentLocation, Distance.FromMeters(200)));
-                };
-                await Geolocator.StartListeningAsync(TimeSpan.FromSeconds(5), 50);
-            });
-
+            SetUpEventWidget();
             GetCurrentPosition();
+        }
+
+        private void SetUpEventWidget()
+        {
+            TrackingButton.Text = "Start Location";
+
+            TrackingButton.Clicked += async (sender, events) =>
+            {
+                if (TrackingButton.Text == "Start Location")
+                {
+                    // tracking
+
+                    Geolocator = CrossGeolocator.Current;
+                    Geolocator.DesiredAccuracy = 100;
+                    Geolocator.PositionChanged += (_sender, _event) =>
+                    {
+                        Console.WriteLine($"Position Status: {_event.Position.Timestamp}");
+                        Console.WriteLine($"Position Latitude: {_event.Position.Latitude}");
+                        Console.WriteLine($"Position Longitude: {_event.Position.Longitude}");
+
+                        var currentLocation = new Position(_event.Position.Latitude, _event.Position.Longitude);
+                        map.MoveToRegion(MapSpan.FromCenterAndRadius(currentLocation, Distance.FromMeters(200)));
+                    };
+                    await Geolocator.StartListeningAsync(TimeSpan.FromSeconds(5), 50);
+
+                    Device.BeginInvokeOnMainThread(() => {
+                        TrackingButton.Text = "Stop Location";
+                    });
+                }
+                else
+                {
+                    bool result = await DisplayAlert("title", "message", "yes", "no");
+                    if(result == true)
+                    {
+                        await Geolocator.StopListeningAsync();
+
+                        Device.BeginInvokeOnMainThread(() => {
+                            TrackingButton.Text = "Start Location";
+                        });
+                    }
+                }
+            };
         }
 
         private void SetupMap()
@@ -58,7 +83,6 @@ namespace MyMap
                 map.MyLocationEnabled = true;
             }
         }
-
 
         private void GetCurrentPosition()
         {
@@ -153,7 +177,5 @@ namespace MyMap
                 }
             };
         }
-
-       
     }
 }
