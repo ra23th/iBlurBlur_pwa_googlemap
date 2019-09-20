@@ -9,10 +9,10 @@
     mc:Ignorable="d"
     x:Class="MyMap.MainPage">
 
-       <StackLayout
+    <StackLayout
         Orientation="Vertical">
         <Image
-            Source="xamarin_map_banner.png"
+            Source="http://media.comicbook.com/2018/02/marvel-studios-first-10-years-banner-1081327.jpeg"
             HeightRequest="130"
             Aspect="AspectFill" />
         <controls:SegmentedControl

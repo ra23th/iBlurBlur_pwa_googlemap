@@ -5,6 +5,7 @@
 /Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/MyMap.dll
 /Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/Plugin.CurrentActivity.dll
+/Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/Plugin.Geolocator.dll
 /Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/Plugin.Permissions.dll
 /Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/SegmentedControl.FormsPlugin.Abstractions.dll
 /Users/iblurblur/Desktop/MyMap/MyMap.Android/obj/Debug/android/assets/SegmentedControl.FormsPlugin.Android.dll

@@ -6,6 +6,7 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"MyMap.dll",
 		"Plugin.CurrentActivity.dll",
+		"Plugin.Geolocator.dll",
 		"Plugin.Permissions.dll",
 		"SegmentedControl.FormsPlugin.Abstractions.dll",
 		"SegmentedControl.FormsPlugin.Android.dll",

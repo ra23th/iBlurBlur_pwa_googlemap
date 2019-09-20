@@ -35,7 +35,7 @@ namespace MyMap.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
-
+            // Add
             Plugin.Permissions.PermissionsImplementation.Current.
             OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }

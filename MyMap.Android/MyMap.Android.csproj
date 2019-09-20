@@ -113,5 +113,15 @@
       <Name>MyMap</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\cmdev_pin_01.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_02.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_03.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_04.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_05.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_06.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_07.png" />
+    <AndroidAsset Include="Assets\cmdev_pin_08.png" />
+  </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
