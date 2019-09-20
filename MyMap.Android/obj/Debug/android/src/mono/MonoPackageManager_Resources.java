@@ -2,7 +2,9 @@ package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MyMap.Android.dll" comes first in this list. */
+		"MyMap.Android.dll",
 		"FormsViewGroup.dll",
+		"MyMap.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Permissions.dll",
 		"SegmentedControl.FormsPlugin.Abstractions.dll",

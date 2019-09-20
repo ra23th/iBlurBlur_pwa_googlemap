@@ -1,0 +1,12 @@
+/Users/iblurblur/Desktop/MyMap/MyMap/bin/Debug/netstandard2.0/MyMap.deps.json
+/Users/iblurblur/Desktop/MyMap/MyMap/bin/Debug/netstandard2.0/MyMap.dll
+/Users/iblurblur/Desktop/MyMap/MyMap/bin/Debug/netstandard2.0/MyMap.pdb
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MyMap.csprojAssemblyReference.cache
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MyMap.csproj.CoreCompileInputs.cache
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MyMap.AssemblyInfoInputs.cache
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MyMap.AssemblyInfo.cs
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MyMap.dll
+/Users/iblurblur/Desktop/MyMap/MyMap/obj/Debug/netstandard2.0/MyMap.pdb

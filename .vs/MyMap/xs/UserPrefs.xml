@@ -1,18 +1,23 @@
 ﻿<Properties StartupConfiguration="{8712A8F9-CB01-41F6-9098-DE47070AD62E}|Default">
   <MonoDevelop.Ide.ItemProperties.MyMap.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" FirstBuild="True" PreferredExecutionTarget="Android.Phone_Pixel_L" />
   <MonoDevelop.Ide.ItemProperties.MyMap.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../.nuget/packages/xam.plugin.geolocator/4.5.0.6/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyMap.Android/MainApplication.cs">
     <Files>
       <File FileName="MyMap/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="MyMap/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="../../.nuget/packages/plugin.permissions/3.0.0.12/readme.txt" Line="1" Column="1" />
-      <File FileName="../../.nuget/packages/xam.plugin.geolocator/4.5.0.6/readme.txt" Line="1" Column="1" />
+      <File FileName="MyMap.Android/MainActivity.cs" Line="43" Column="2" />
+      <File FileName="MyMap.Android/MainApplication.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyMap" expanded="True">
-            <Node name="MyMap" expanded="True" selected="True" />
+            <Node name="MyMap" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="MyMap.Android" expanded="True">
+              <Node name="MainApplication.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
